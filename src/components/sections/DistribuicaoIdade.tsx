@@ -16,10 +16,10 @@ const DistribuicaoIdade = () => {
   const [erro, setErro] = useState("");
 
   useEffect(() => {
-     fetch("http://localhost:8000/analises/estatisticas-idade")
+     fetch("https://datathon-ml-postech-fiap.onrender.com/analises/estatisticas-idade")
         .then((res) => res.json())
         .then((json) => setStats(json));
-    fetch("http://localhost:8000/analises/distribuicao-idade")
+    fetch("https://datathon-ml-postech-fiap.onrender.com/analises/distribuicao-idade")
       .then((res) => {
         if (!res.ok) {
           throw new Error(`Erro HTTP: ${res.status}`);
