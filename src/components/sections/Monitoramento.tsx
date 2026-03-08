@@ -18,7 +18,7 @@ export default function Monitoramento() {
   const carregarMonitoramento = async () => {
     try {
       setLoading(true);
-      const response = await fetch("http://127.0.0.1:8000/monitoramento/drift");
+      const response = await fetch("https://datathon-ml-postech-fiap.onrender.com/monitoramento/drift");
       const json = await response.json();
       setData(json);
     } catch (error) {
