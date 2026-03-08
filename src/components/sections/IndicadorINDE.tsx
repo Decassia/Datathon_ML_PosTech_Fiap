@@ -12,7 +12,7 @@ const IndicadorINDE = () => {
   const [erro, setErro] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:8000/analises/media-inde")
+    fetch("https://datathon-ml-postech-fiap.onrender.com/analises/media-inde")
       .then((res) => {
         if (!res.ok) {
           throw new Error(`Erro HTTP: ${res.status}`);
