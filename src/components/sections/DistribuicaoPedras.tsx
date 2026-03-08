@@ -20,7 +20,8 @@ const DistribuicaoPedras = () => {
   const [erro, setErro] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:8000/analises/distribuicao-pedras")
+    fetch("https://datathon-ml-postech-fiap.onrender.com/analises/distribuicao-pedras")
+
       .then((res) => {
         if (!res.ok) {
           throw new Error(`Erro HTTP: ${res.status}`);
