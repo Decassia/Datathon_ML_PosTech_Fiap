@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Sparkles, Info, TrendingUp, Target, Brain } from "lucide-react";
 
-const API_URL = import.meta.env.VITE_API_URL || "https://datathon-ml-postech-fiap.onrender.com/";
+const API_URL = import.meta.env.VITE_API_URL || "https://datathon-ml-postech-fiap.onrender.com";
 
 const Previsoes = () => {
   const [age, setAge] = useState(12);
