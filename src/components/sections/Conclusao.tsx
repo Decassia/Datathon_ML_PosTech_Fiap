@@ -53,7 +53,7 @@ const Conclusao = () => {
 
       <div className="bg-card rounded-xl p-6 shadow-card">
         <a
-          href="https://github.com/"
+          href="https://github.com/Decassia/Datathon_ML_PosTech_Fiap"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-3 text-primary hover:underline font-heading font-semibold mb-6"
