@@ -41,6 +41,7 @@ Datathon_ML_PosTech_Fiap
 │   ├── api
 │   │   ├── main.py
 │   │   ├── routes.py
+
 │   │
 │   ├── modelo
 │   │   └── random_forest_regressor_predict_student_inde.pkl
@@ -167,8 +168,8 @@ Documentação automática:
 Foi implementado um endpoint simples de monitoramento para detectar **data drift**.
 
 Endpoint:
+<img width="1472" height="55" alt="image" src="https://github.com/user-attachments/assets/7e7ed022-8ec0-43b8-ba17-7c08f695dfb6" />
 
-GET /monitoramento/drift
 
 ---
 
@@ -194,12 +195,12 @@ CMD ["sh", "-c", "uvicorn app.api.main:app --host 0.0.0.0 --port ${PORT:-10000}"
 # ☁️ Deploy
 
 Deploy realizado na plataforma **Render**.
+url: https://datathon-ml-postech-fiap.onrender.com/docs#/
 
 Endpoints disponíveis:
 
-/docs  
-/predict  
-/monitoramento
+<img width="1472" height="826" alt="image" src="https://github.com/user-attachments/assets/bbb21cb4-71d8-403a-a2a1-dd2668d367f2" />
+
 
 ---
 
@@ -219,7 +220,7 @@ uvicorn app.api.main:app --reload
 
 Abrir no navegador:
 
-http://localhost:8000/docs
+https://datathon-ml-postech-fiap.onrender.com/docs
 
 ---
 
