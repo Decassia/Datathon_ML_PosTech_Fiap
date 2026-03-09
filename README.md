@@ -204,23 +204,15 @@ Endpoints disponíveis:
 
 ---
 
-# 💻 Executando Localmente
+# 💻 Frontend
 
-Clonar o projeto:
 
-git clone https://github.com/SEU_REPO/Datathon_ML_PosTech_Fiap.git
+<img width="1572" height="842" alt="image" src="https://github.com/user-attachments/assets/07045354-d2e6-47da-ae9c-4d36fcd6216b" />
 
-Instalar dependências:
-
-pip install -r requirements.txt
-
-Rodar API:
-
-uvicorn app.api.main:app --reload
 
 Abrir no navegador:
 
-https://datathon-ml-postech-fiap.onrender.com/docs
+(https://datathon-ml-postech-fiap-1.onrender.com/)
 
 ---
 
