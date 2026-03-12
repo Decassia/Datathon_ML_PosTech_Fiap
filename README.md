@@ -1,4 +1,4 @@
-::: {align="center"}
+
 # 📊 Datathon MLOps -- Previsão do INDE
 
 ### Pipeline de Machine Learning em produção para previsão do **Índice de Desenvolvimento Educacional (INDE)**
