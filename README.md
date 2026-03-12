@@ -117,9 +117,7 @@ Datathon_ML_PosTech_Fiap
 │   │       ├── NavLink.tsx
 │   │       └── StatCard.tsx
 │   │
-│   ├── hooks
-│   ├── lib
-│   ├── pages
+│   ├
 │   ├── test
 │   │
 │   ├── App.tsx
@@ -127,6 +125,9 @@ Datathon_ML_PosTech_Fiap
 │   └── index.css
 │
 ├── tests
+│   ├── test_api.py
+│   ├── test_drift.py
+│   └── test_model.py
 │
 ├── Dockerfile
 ├── requirements.txt
