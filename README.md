@@ -1,20 +1,21 @@
-::: {align="center"}
-# 📊 Datathon MLOps -- Previsão do INDE
+<div align="center">
 
-### Pipeline de Machine Learning em produção para previsão do **Índice de Desenvolvimento Educacional (INDE)**
+# 📊 Datathon MLOps – Previsão do INDE
 
-### **Pós-Tech FIAP -- Machine Learning Engineering**
+Pipeline de Machine Learning em produção para previsão do  
+**Índice de Desenvolvimento Educacional (INDE)**
+
+**Pós-Tech FIAP – Machine Learning Engineering**
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-API-green)
-![Scikit-Learn](https://img.shields.io/badge/MachineLearning-ScikitLearn-orange)
+![Machine Learning](https://img.shields.io/badge/MachineLearning-ScikitLearn-orange)
 ![Docker](https://img.shields.io/badge/Container-Docker-blue)
 ![React](https://img.shields.io/badge/Frontend-React-61DAFB)
 ![Render](https://img.shields.io/badge/Deploy-Render-purple)
 ![Pytest](https://img.shields.io/badge/Tests-Pytest-yellow)
 
-:::
-
+</div>
 ------------------------------------------------------------------------
 
 ## 🚀 Sobre o Projeto
