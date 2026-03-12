@@ -1,4 +1,4 @@
-<div align="center">
+::: {align="center"}
 # 📊 Datathon MLOps -- Previsão do INDE
 
 ### Pipeline de Machine Learning em produção para previsão do **Índice de Desenvolvimento Educacional (INDE)**
@@ -13,7 +13,7 @@
 ![Render](https://img.shields.io/badge/Deploy-Render-purple)
 ![Pytest](https://img.shields.io/badge/Tests-Pytest-yellow)
 
-</div>
+:::
 
 ------------------------------------------------------------------------
 
