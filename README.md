@@ -240,11 +240,11 @@ https://datathon-ml-postech-fiap.onrender.com/docs
 
 Build:
 
-    docker build -t ml-api .
+     docker build -t datathon_ml_postech_fiap . 
 
 Run:
 
-    docker run -p 8000:8000 ml-api
+     docker run -p 8000:8000 datathon_ml_postech_fiap 
 
 ------------------------------------------------------------------------
 
