@@ -94,13 +94,21 @@ Dataset com dados educacionais de alunos do programa **Passos Mágicos**.
 
   Variável      Descrição
   ------------- -----------------------------------------
+  
   IDADE         Idade do aluno
+  
   FASE          Fase educacional
+  
   IAA           Indicador de Aprendizagem
+  
   IAN           Indicador de Notas
+  
   IEG           Indicador de Engajamento
+  
   INGRESSANTE   Indica se o aluno ingressou no programa
+  
   INDE          Índice de Desenvolvimento Educacional
+  
 
 ------------------------------------------------------------------------
 
