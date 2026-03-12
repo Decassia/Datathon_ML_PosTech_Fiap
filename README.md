@@ -65,24 +65,74 @@ C --> H[(Dataset tratado)]
 
 ## 🗂 Estrutura do Projeto
 
-``` bash
+
+```bash
 Datathon_ML_PosTech_Fiap
 │
 ├── app
-│   ├── api
-│   │   ├── main.py
-│   │   ├── routes.py
-│   │
-│   ├── modelo
-│   │   └── random_forest_regressor_predict_student_inde.pkl
+│   └── api
+│       ├── __init__.py
+│       ├── main.py
+│       ├── route.py
+│       ├── drift.py
+│       ├── analise_idade.py
+│       ├── analise_inde.py
+│       └── analise_performance.py
 │
 ├── data
-│   └── df_cleaned.csv
+│   ├── df_2022.csv
+│   ├── df_2023.csv
+│   ├── df_2024.csv
+│   ├── df_cleaned.csv
+│   ├── df_geral_novo.csv
+│   ├── tabela_idades.csv
+│   └── tabela_pedras_por_ano.csv
+│
+├── data_process_note_EDA
+│   ├── EDA_Datathon_PassosMagicos.ipynb
+│   └── processar_bases_pede.py
+│
+├── modelo
+│   └── random_forest_regressor_predict_student_inde.pkl
+│
+├── public
+│
+├── src
+│   ├── assets
+│   ├── components
+│   │   ├── sections
+│   │   │   ├── Analises.tsx
+│   │   │   ├── Analises_.tsx
+│   │   │   ├── Conclusao.tsx
+│   │   │   ├── Dados.tsx
+│   │   │   ├── DistribuicaoIdade.tsx
+│   │   │   ├── DistribuicaoPedras.tsx
+│   │   │   ├── IndicadorINDE.tsx
+│   │   │   ├── Monitoramento.tsx
+│   │   │   ├── Previsoes.tsx
+│   │   │   └── VisaoGeral.tsx
+│   │
+│   │   └── ui
+│   │       ├── AppSidebar.tsx
+│   │       ├── NavLink.tsx
+│   │       └── StatCard.tsx
+│   │
+│   ├── hooks
+│   ├── lib
+│   ├── pages
+│   ├── test
+│   │
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
 │
 ├── tests
 │
 ├── Dockerfile
 ├── requirements.txt
+├── package.json
+├── vite.config.ts
+├── tailwind.config.ts
 ├── README.md
 ```
 
