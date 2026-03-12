@@ -174,6 +174,10 @@ Principais análises realizadas:
 -   análise temporal
 -   análise por categoria PEDRA
 
+
+<img width="1522" height="800" alt="image" src="https://github.com/user-attachments/assets/032407fa-ce96-4fad-ab0d-e5b223c2e884" />
+
+
 ------------------------------------------------------------------------
 
 ## ⚙️ Engenharia de Features
@@ -212,6 +216,10 @@ Parâmetros principais:
 Modelo salvo com **joblib**:
 
     random_forest_regressor_predict_student_inde.pkl
+
+
+<img width="1522" height="679" alt="image" src="https://github.com/user-attachments/assets/628ee576-3dc7-4842-b2b4-9638e7072e9d" />
+
 
 ------------------------------------------------------------------------
 
@@ -267,6 +275,9 @@ Exemplo:
 }
 ```
 
+<img width="1671" height="816" alt="image" src="https://github.com/user-attachments/assets/46f7b346-a1f1-44df-82a1-e994c13338b0" />
+
+
 ------------------------------------------------------------------------
 
 ## 💻 Frontend
@@ -277,6 +288,9 @@ Acesso:
 
 https://datathon-ml-postech-fiap-1.onrender.com/
 
+<img width="1376" height="679" alt="image" src="https://github.com/user-attachments/assets/06ffccb6-f7e9-49a2-b240-5cfda51de5c1" />
+
+
 ------------------------------------------------------------------------
 
 ## ☁️ Deploy
@@ -284,6 +298,9 @@ https://datathon-ml-postech-fiap-1.onrender.com/
 API disponível em:
 
 https://datathon-ml-postech-fiap.onrender.com/docs
+
+<img width="1597" height="675" alt="image" src="https://github.com/user-attachments/assets/552648fc-00b5-4e62-89ea-83172d3aac1e" />
+
 
 ------------------------------------------------------------------------
 
